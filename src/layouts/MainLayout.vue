@@ -1,5 +1,5 @@
 <template>
-  <q-container class="bg-blue-12 flex flex-center" style="height: 100vh">
+  <q-container class="bg-blue-12 flex justify-center" style="height: 100vh">
     <div class="inputBtn">
       <input v-model="newtask" label="Add your task here" class="newinput" />
       <q-btn class="button" @click="add"
@@ -108,10 +108,6 @@ const cancel = () => {
 .container {
   background-color: #d2d2d2;
   width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .inputBtn {
   height: 50px;
